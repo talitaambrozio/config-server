@@ -11,6 +11,6 @@ spring:
 #          - '*'
 
 greeting-service:
-  greeting: "Cia"
+  greeting: "Pronto"
   default-value: "Mondo"
 
