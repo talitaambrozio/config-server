@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: greeting-service
+
+#configuração para visualizar todos os endpoints do actuator (não habilitar em produção)
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#          - '*'
+
+greeting-service:
+  greeting: "Hola"
+  default-value: "Mundo"
+
